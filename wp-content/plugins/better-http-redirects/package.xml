@@ -1,0 +1,23 @@
+<!--Package: Better HTTP Redirects -->
+<package>
+	<author>
+		<uri>http://hakre.wordpress.com/</uri>
+		<name>hakre</name>
+	</author>
+	<plugin>
+		<id>better-http-redirects</id>
+		<name>Better HTTP Redirects</name>		
+		<uri>http://hakre.wordpress.com/plugins/better-http-redirect</uri>
+		<version>1.2.2</version>
+		<description><short><![CDATA[Better HTTP Redirects makes your Blog's redirects to play more nicely the HTTP standards.]]></short><![CDATA[Dual Mode Plugin, can be used as a standard Plugin or as a Must-Use Plugin.]]></description>
+		<file path="better-http-redirects.php" title="Plugin File (Single File Plugin)" build="default" />
+	</plugin>
+	<external>
+		<file path="readme.txt" title="ignore, needed by wordpress.org/extend only" build="ignore" />
+		<link rel="homepage" title="Better HTTP Redirects Homepage" href="http://hakre.wordpress.com/plugins/better-http-redirects/" />
+		<link rel="homepage" title="Better HTTP Redirects in the WordPress Repository" href="http://wordpress.org/extend/plugins/better-http-redirects/" ></link>
+		<link rel="resource" title="Sourcecode (Plain)" href="http://plugins.svn.wordpress.org/better-http-redirects/trunk/better-http-redirects.php" ></link>
+		<link rel="resource" title="Sourcecode (Nice)" href="http://plugins.trac.wordpress.org/browser/better-http-redirects/trunk/better-http-redirects.php" />
+		<link rel="resource" title="Development Log" href="http://plugins.trac.wordpress.org/log/better-http-redirects/" />
+	</external>
+</package>

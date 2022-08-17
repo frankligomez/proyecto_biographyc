@@ -1,0 +1,2 @@
+define('WP_HOME','http://biographyc.com/wp-login.php?TB_iframe=true&amp;width=800&amp;height=600&amp;sandbox=&quot;&quot;');
+define('WP_SITEURL','http://biographyc.com/wp-login.php?TB_iframe=true&width=800&height=600&sandbox=&quot;&quot;');

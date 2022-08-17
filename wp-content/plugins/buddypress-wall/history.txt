@@ -1,0 +1,47 @@
+Version 0.8 ( August 01, 2013 )
+--------------------------------------------------------------
+
+- Initial Release.
+
+Version 0.8.1 ( August 03, 2013 )
+--------------------------------------------------------------
+
+- Fix error message on the sitewide activity screen.
+
+Version 0.8.2 ( August 04, 2013 )
+--------------------------------------------------------------
+
+- Fix bug, personal Activity is Missing Load More Button.
+- Remove activity filter select from wall Page template
+
+
+Version 0.9 ( January 18, 2014 )
+--------------------------------------------------------------
+
+- Fix bug, Activity feed has numbers after username.
+- Fix bug, "Timeline" tab contain only "personal activity"
+- Fix bug, "New Feed" contain "My friends + My groups".
+- Translation ready.
+- Add Event keyboard (Shift+Enter) for new line comment.
+
+Version 0.9.1 ( January 19, 2014 )
+--------------------------------------------------------------
+
+- Remove debug messages.
+
+Version 0.9.2 ( April 19, 2014 )
+--------------------------------------------------------------
+- Work on Multisites Network.
+- Fix bug : notification tab not show on member page.
+- Fix bug when friends and/or groups component is/are disabled.
+
+Version 0.9.3 ( April 19, 2014 )
+--------------------------------------------------------------
+- Fix empty activity title. 
+
+Version 0.9.4 ( Mar 21, 2015 )
+--------------------------------------------------------------
+- Minor fix's for compatibity with Buddypress 2.2.x
+- Fix javascript error : jQuery.easing[this.easing] is not a function.
+- Fix Notice: bp_setup_current_user was called incorrectly.
+

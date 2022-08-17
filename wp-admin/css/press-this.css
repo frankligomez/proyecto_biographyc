@@ -1,0 +1,711 @@
+/*
+Press This styles :)
+*/
+
+
+/**
+* Normalize
+*
+* normalize.css v3.0.0 | MIT License | git.io/normalize
+*/
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+	*,
+	*:before,
+	*:after {
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+	display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+[hidden],
+template {
+	display: none;
+}
+
+a {
+	background: transparent;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+img {
+	border: 0;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+figure {
+	margin: 1em 40px;
+}
+
+hr {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+
+pre {
+	overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input {
+	line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+legend {
+	border: 0;
+	padding: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+optgroup {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+.hide-if-js {
+	display: none;
+}
+
+.screen-reader-text {
+	position: absolute;
+	margin: -1px;
+	padding: 0;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	border: 0;
+}
+
+
+/**
+* Typography
+*
+* Base element typographic styles.
+*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+
+/**
+* Buttons
+*
+* Pushing buttons is what I do.
+*/
+
+.button-subtle,
+.scan-submit {
+	display: inline-block;
+	margin: 0;
+	padding: 0 10px 1px;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 13px;
+	line-height: 2;
+	text-decoration: none;
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+.button-subtle {
+	background: none;
+	border: 0;
+	color: #0073aa;
+}
+
+.button-subtle:visited {
+	color: #0073aa;
+}
+
+.button-subtle:focus,
+.button-subtle:hover,
+.button-subtle:active,
+.edit-post-link:focus,
+.edit-post-link:hover,
+.edit-post-link:active {
+	color: #00a0d2;
+}
+
+.button-subtle:focus,
+.button-subtle:active,
+.edit-post-link:focus,
+.edit-post-link:active {
+	outline: 0;
+	text-decoration: underline;
+}
+
+.preview-button {
+	margin-right: 5px;
+}
+
+.button-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+.button-reset:focus {
+	outline: 0;
+}
+
+.button-link {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	color: #0073aa;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+.button-link:hover,
+.button-link:active,
+.button-link:focus {
+	color: #00a0d2;
+	text-decoration: underline;
+}
+
+
+/**
+* Forms
+*
+* So many input types.
+*/
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	*vertical-align: middle;
+}
+
+[type="checkbox"],
+[type="radio"] {
+	padding: 0;
+}
+
+[type="search"] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+[type="text"],
+[type="email"],
+[type="url"],
+[type="password"],
+[type="search"],
+textarea {
+	padding: 0.4em 0.75em;
+	color: #32373c;
+	border: 1px solid #ccc;
+}
+
+[type="text"]:focus,
+[type="email"]:focus,
+[type="url"]:focus,
+[type="password"]:focus,
+[type="search"]:focus,
+textarea:focus {
+	color: #32373c;
+	outline: 0;
+}
+
+textarea {
+	overflow: auto;
+	padding-left: 3px;
+	vertical-align: top;
+}
+
+
+/**
+* Links
+*/
+a {
+	color: #0073aa;
+}
+
+a:visited {
+	color: #0073aa;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #00a0d2;
+}
+
+
+/**
+* Lists
+*/
+ul,
+ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+
+/**
+* Post formats
+*
+* Complete styles for post formats UI
+*/
+/* TODO if we remove the <br> during merge, this can go. */
+#post-formats-select br {
+	display: none;
+}
+
+.post-format {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	top: -9999px;
+}
+
+.lt-ie9 .post-format {
+	margin: 17px 12px 0 13px;
+	width: auto;
+	height: auto;
+	position: static;
+	top: auto;
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+
+.post-format-icon {
+	position: relative;
+	display: block;
+	padding: 13px 2px 14px 13px;
+	cursor: pointer;
+}
+
+.post-format-icon:before,
+.post-format-icon:after {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	font-size: 20px;
+	line-height: 1;
+	font-family: dashicons;
+	text-decoration: inherit;
+	color: #9ea7af;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	-webkit-transition: color .1s ease-in 0;
+	transition: color .1s ease-in 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.post-format-icon:before {
+	content: "\f109";
+}
+
+.post-format-icon:after {
+	display: none;
+	content: "\f147";
+	float: right;
+}
+
+.post-format:checked + .post-format-icon {
+	-webkit-box-shadow: inset 6px 0 0 #00a0d2;
+	box-shadow: inset 6px 0 0 #00a0d2;
+	background: rgba(46, 162, 204, 0.1);
+}
+
+.post-format:checked + .post-format-icon:before,
+.post-format:checked + .post-format-icon:after {
+	color: #32373c;
+}
+
+.post-format:focus + .post-format-icon {
+	background: #00a0d2;
+	color: #fff;
+}
+
+.post-format:focus + .post-format-icon:before,
+.post-format:focus + .post-format-icon:after {
+	color: #fff;
+}
+
+.post-format:checked + .post-format-icon:after {
+	display: block;
+}
+
+.lt-ie9 .post-format-icon {
+	margin-left: 16px;
+}
+
+.post-format-aside:before {
+	content: "\f123";
+}
+
+.post-format-image:before {
+	content: "\f128";
+}
+
+.post-format-video:before {
+	content: "\f126";
+}
+
+.post-format-audio:before {
+	content: "\f127";
+}
+
+.post-format-quote:before {
+	content: "\f122";
+}
+
+.post-format-link:before {
+	content: "\f103";
+}
+
+.post-format-gallery:before {
+	content: "\f161";
+}
+
+
+/**
+* Tags
+*
+* Complete styles for tags UI
+*/
+.tagsdiv p {
+	margin: 0;
+}
+
+.tagsdiv .ajaxtag {
+	position: relative;
+}
+
+.tagsdiv .newtag {
+	display: block;
+	position: relative;
+	padding: 11px 58px 11px 16px;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 16px;
+}
+
+.tagsdiv .tagadd {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 1px;
+	border: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 0 16px;
+	background: #f7f7f7;
+	border-left: 1px solid #f1f1f1;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.tagsdiv .tagadd:hover,
+.tagsdiv .tagadd:active,
+.tagsdiv .tagadd:focus {
+	outline: 0;
+	background: #2991b7;
+	border-color: #20708e;
+	color: #fff;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.tagsdiv .howto {
+	color: #727272;
+	font-style: italic;
+	margin: 10px 0 6px 16px;
+}
+
+
+/* Tag hint TODO needed? */
+/* Tag suggestions */
+.ac_results {
+	padding: 0;
+	margin: -1px 0 0 -1px;
+	list-style: none;
+	position: absolute;
+	z-index: 10000;
+	display: none;
+	border: 1px solid #d8d8d8;
+	background-color: #fff;
+	font-size: 14px;
+}
+
+.ac_results li {
+	padding: 6px 16px;
+	white-space: nowrap;
+	color: #101010;
+	text-align: left;
+}
+
+.
